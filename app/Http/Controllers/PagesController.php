@@ -8,6 +8,6 @@ class PagesController extends Controller
 {
     public function root()
     {
-      return "首页";
+        return view('pages.root');
     }
 }

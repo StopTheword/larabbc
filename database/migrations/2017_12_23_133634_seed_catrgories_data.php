@@ -31,7 +31,7 @@ class SeedCatrgoriesData extends Migration
                 'description' => '站点公告',
             ],
         ];
-        DB::table('catrgories')->insert($categories);
+        DB::table('categories')->insert($categories);
     }
 
     /**

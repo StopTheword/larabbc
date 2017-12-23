@@ -32,3 +32,5 @@ Auth::routes();
 // Route::post('password/reset', 'Auth\ResetPasswordController@reset');
 //用戶个人信息的查看更新编辑
 Route::resource('users', 'UsersController', ['only'=> ['show','update','edit']]);
+
+Route::resource('topics', 'TopicsController', ['only' => ['index', 'show', 'create', 'store', 'update', 'edit', 'destroy']]);

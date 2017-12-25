@@ -18,4 +18,9 @@ class TopicObserver
     {
         //
     }
+
+    public function saving(Topic $topic)
+    {//make_excerpt自定义的辅助函数，在helpers.php中定义
+        $topic->excerpt = make_excerpt($topic->body);
+    }
 }

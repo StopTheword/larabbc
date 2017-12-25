@@ -14,7 +14,7 @@ class Topic extends Model
 
     //一个帖子对应一个作者
     public function user()
-    {
-        return $this->belongsTo(User::class);
-    }
+   {
+       return $this->belongsTo(User::class);
+   }
 }

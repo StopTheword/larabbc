@@ -27,4 +27,8 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
     //$tables = 'users';
+    public function topics()
+    {
+        return $this->hasMany(Topic::class);
+    }
 }

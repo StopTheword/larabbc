@@ -16,8 +16,6 @@
  * @link http://htmlpurifier.org/live/configdoc/plain.html
  */
 
- <?php
-
 return [
     'encoding'      => 'UTF-8',
     'finalize'      => true,
